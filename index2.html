@@ -1,0 +1,201 @@
+<html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planiranje vjenčanja</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            height: 60px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: white;
+        }
+
+        .logo {
+            width: 50px;
+            height: 60px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .logo-container {
+            height: 50px;
+            padding: 5px;
+            width: 100%;
+        }
+
+        .logo-img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .nav {
+            position: absolute;
+            height: 60px;
+            right: 0;
+            top: 0;
+        }
+
+        .content {
+            position: absolute;
+            top: 60px;
+            background-image: url(par1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: center;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 700px;
+            z-index: 5;
+        }
+
+        .msg {
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: 100px;
+        }
+
+        .msg-text {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .footer {
+            position: absolute;
+            top: 760px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: bisque;
+            height: 250px;
+        }
+
+        .footer-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            left: 0;
+            height: 100%;
+        }
+
+        .title-container {
+            padding: 10px;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .title {
+            font-size: 23px;
+        }
+
+        .text-container {
+            padding: 0 30px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+                <div class="logo-container">
+                    <img class="logo-img" src="planiranje2.jpg" />
+                </div>
+            </div>
+
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="#">Usluge</a>
+                            <ul>
+                                <li><a href="#">Fotografija</a></li>
+                                <li><a href="#">Glazba</a></li>
+                                <li><a href="#">Svadbene sale</a></li>
+                                <li><a href="#">Crkve</a></li>
+                                <li><a href="#">Šminka</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li><a href="#">O nama</a>
+                            <ul>
+                                <li><a href="#">Gdje se nalazimo?</a></li>
+                                <li><a href="#">Kontakt informacije</a></li>
+                            </ul>
+                        </li> -->
+                        <li><a href="#">Galerija</a></li>
+                        <li><a href="#login">Prijavi/Registiraj se</a>
+                            <div class="login-form">
+                                <form>
+                                    <div>
+                                        <label>Korisničko ime</label>
+
+                                        <input type="text" required />
+                                    </div>
+                                    <div>
+                                        <label>Loznika</label>
+
+                                        <input type="password" required />
+                                    </div>
+                                    <div>
+                                        <input type="submit" value="Ulogiraj se" />
+                                    </div>
+                                    <div>
+                                        <a href="#" style="text-decoration:none;position:relative;right:-10px;
+                                            font-size:12px;color:gray;">Zaboravio/la
+                                            sam lozinku</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li><a href="#">Vizija</a></li>
+                    </ul>
+                </nav>
+         </div>
+
+        <div class="content">
+            <div class="msg">
+                <span class="msg-text">Brzo, lako i jednostavno!</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-container">
+                <div class="title-container">
+                    <span class="title">O nama</span>
+                </div>
+                
+                <div class="text-container">
+                    <span class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
